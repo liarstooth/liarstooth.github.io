@@ -972,7 +972,7 @@
                     function set_inout(value) {
                     	// 0:顶部显示出校; 1:顶部显示入校
                     	document.getElementById("btn_inout").innerHTML = (value ? "切换出校" : "切换入校");
-                    	document.getElementById("userPasstext").innerHTML = ("研究生用户，" + (value ? "入校授权" : "出校登记") + "成功！");
+                    	document.getElementById("userPasstext").innerHTML = ("研究生用户，" + (value ? "入校授权有效" : "出校登记成功") );
                     	setCookie("flag_inout", value, 15);
                     }
 
